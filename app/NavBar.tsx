@@ -19,6 +19,9 @@ const NavBar = () => {
       <Link href="/">
         <AiFillBug />
       </Link>
+      <div>
+        chapon
+      </div>
       <ul className="flex space-x-6">
         {links.map((link) => (
           <Link
