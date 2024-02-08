@@ -11,6 +11,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: issue_tracker
+    volumes:
+      - my-datavolume:/var/lib/mysql
 
   adminer:
     image: adminer
@@ -19,3 +21,6 @@ services:
       - 8080:8080
     depends_on:
       - db
+
+volumes:
+  my-datavolume:
