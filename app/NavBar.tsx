@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import classNames from "classnames";
 import Link from "next/link";
@@ -19,9 +19,6 @@ const NavBar = () => {
       <Link href="/">
         <AiFillBug />
       </Link>
-      <div>
-        chapon
-      </div>
       <ul className="flex space-x-6">
         {links.map((link) => (
           <Link
@@ -29,7 +26,7 @@ const NavBar = () => {
             className={classNames({
               "text-zinc-900": link.href === currentPath,
               "text-zinc-500": link.href !== currentPath,
-              "hover:text-zinc-800 transition-colors": true
+              "hover:text-zinc-800 transition-colors": true,
             })}
             href={link.href}
           >
