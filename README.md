@@ -1,5 +1,7 @@
 # Issue Tracker
 
+<a href="https://issue-tracker-victorbonatos-projects.vercel.app" target="_blank">Try the website here!</a>
+
 ## Pictures
 
 ### Desktop
@@ -17,19 +19,3 @@
 <img src="demo/mobile_3-portrait.png" />
 
 ---
-
-## Getting Started
-
-First, start the database:
-
-```bash
-docker compose up --build
-```
-
-Then start the server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
